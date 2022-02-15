@@ -4,7 +4,8 @@ metadata:
   name: demo-app
 spec:
   rules:
-  - http:
+  - host: staging.isolight.io
+    http:
       paths:
       - path: /
         pathType: ImplementationSpecific

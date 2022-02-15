@@ -3,6 +3,7 @@ kind: Ingress
 metadata:
   name: demo-app
 spec:
+  ingressClassName: nginx
   rules:
   - host: staging.isolight.io
     http:

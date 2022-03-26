@@ -4,7 +4,7 @@ kind: Kustomization
 namespace: default
 
 resources:
-# - ingress.yaml
+- ingress.yaml
 - https://github.com/rkrmr33/demo-app-api-server/.deploy?ref=v1.0.2
 - https://github.com/rkrmr33/demo-app-ui/.deploy?ref=v1.0.2
 - https://github.com/rkrmr33/demo-app-svc1/.deploy?ref=v1.0.1

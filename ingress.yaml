@@ -4,6 +4,7 @@ metadata:
   name: demo-app
 spec:
   rules:
+  ingressClassName: nginx
   - host: 127.0.0.1.nip.io
     http:
       paths:

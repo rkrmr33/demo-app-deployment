@@ -3,8 +3,8 @@ kind: Ingress
 metadata:
   name: demo-app
 spec:
-  rules:
   ingressClassName: nginx
+  rules:
   - host: 127.0.0.1.nip.io
     http:
       paths:
